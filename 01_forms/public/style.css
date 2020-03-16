@@ -1,0 +1,8 @@
+* {
+  box-sizing: border-box;
+}
+
+.message-form {
+  display: flex;
+  flex-direction: column;
+}

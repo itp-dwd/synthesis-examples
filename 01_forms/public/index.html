@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Form Example</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Submit a Message</h1>
+  <form id="message-form" class="message-form">
+    <div class="form-input-group">
+      <!-- "for" is connected to the input via the id -->
+      <label for="name-input">Name</label>
+      <input type="text" name="name" id="name-input" />
+    </div>
+    <div class="form-input-group">
+      <label for="message-input">Message</label>
+      <textarea id="message-input" name="message"></textarea>
+    </div>
+    <div class="form-input-group">
+      <button>Submit</button>
+    </div>
+  </form>
+  <script src="client.js"></script>
+</body>
+</html>
